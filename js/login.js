@@ -9,5 +9,7 @@ document.getElementById('btn-login').addEventListener('click', function(){
     
     if(email == 'rakib@hasan.com' && password == 'rakib'){
         window.location.href = 'http://127.0.0.1:5500/page.html'
+    }else{
+        alert('Please put email and password correctly!');
     }
 })
